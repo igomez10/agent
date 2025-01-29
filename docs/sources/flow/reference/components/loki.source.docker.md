@@ -157,7 +157,7 @@ loki.source.docker "default" {
 
 loki.write "local" {
   endpoint {
-    url = "loki:3100/api/v1/push"
+    url = "http://loki:3100/api/v1/push"
   }
 }
 ```
